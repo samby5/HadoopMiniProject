@@ -1,0 +1,1 @@
+cat data.csv | python autoinc_mapper1.py | python autoinc_reducer1.py | sort | python autoinc_mapper2.py | python autoinc_reducer2.py
